@@ -5600,6 +5600,8 @@ __metadata:
     eslint-config-react-app: ^6.0.0
     firebase: ^9.5.0
     history: 5
+    lodash: ^4.17.21
+    lodash.memoize: ^4.1.2
     react: ^17.0.2
     react-dom: ^17.0.2
     react-redux: ^7.2.6
@@ -5607,6 +5609,7 @@ __metadata:
     react-scripts: 4.0.3
     redux: ^4.1.2
     redux-logger: ^3.0.6
+    redux-persist: ^6.0.0
     reselect: ^4.1.5
     sass: ^1.43.4
     sass-loader: ^12.3.0
@@ -10243,7 +10246,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"lodash@npm:>=3.5 <5, lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.5":
+"lodash@npm:>=3.5 <5, lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.5":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
@@ -13332,6 +13335,15 @@ fsevents@^1.2.7:
   dependencies:
     deep-diff: ^0.3.5
   checksum: cc54fe7def447262864badc7703a2a978cf25085f123a144c0032f97947c36c4da452d7cdcece54179913091ffe2b991e1103c37eec4a1283d17044878ae74a3
+  languageName: node
+  linkType: hard
+
+"redux-persist@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "redux-persist@npm:6.0.0"
+  peerDependencies:
+    redux: ">4.0.0"
+  checksum: 6b7c74526155c53ecdd49ec51d27fa07d265454440c734e8f1ef71dcbb78ae864a9965e152b9b1f35950ad933b66a79b8cf6be555f2dc89e1a61f01fc70a2965
   languageName: node
   linkType: hard
 
