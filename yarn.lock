@@ -5602,11 +5602,13 @@ __metadata:
     history: 5
     lodash: ^4.17.21
     lodash.memoize: ^4.1.2
+    prop-types: ^15.8.0
     react: ^17.0.2
     react-dom: ^17.0.2
     react-redux: ^7.2.6
     react-router-dom: ^6.0.2
     react-scripts: 4.0.3
+    react-stripe-checkout: ^2.6.3
     redux: ^4.1.2
     redux-logger: ^3.0.6
     redux-persist: ^6.0.0
@@ -12757,6 +12759,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.8.0":
+  version: 15.8.0
+  resolution: "prop-types@npm:15.8.0"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: 71271eecc1359d18f4e828508fd1f37947c922a81d780055b5e788580a3ffd9c624eab9274b4db59fe43223c938a4e02e9b9df4af70351a83b9ba5489ca95ff9
+  languageName: node
+  linkType: hard
+
 "protobufjs@npm:^6.10.0":
   version: 6.11.2
   resolution: "protobufjs@npm:6.11.2"
@@ -13050,7 +13063,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 11bcf1267a314a522615f626f3ce3727a3a24cdbf61c4d452add3550a7875326669631326cfb1ba3e92b6f72244c32ffecf93ad21c0cad8455d3e169d0e3f060
@@ -13198,6 +13211,13 @@ fsevents@^1.2.7:
   bin:
     react-scripts: ./bin/react-scripts.js
   checksum: ee13d6fa1eef6c8ad0b5e4e5c26bdf59b136dfa24910e9ebb2d9f42a8fe7e77ed7ce221b87342e4f597954c42293d6d181ff1315d3b2bd3103362eb192a71d22
+  languageName: node
+  linkType: hard
+
+"react-stripe-checkout@npm:^2.6.3":
+  version: 2.6.3
+  resolution: "react-stripe-checkout@npm:2.6.3"
+  checksum: 4131fb1106de3f619a204263369e8bdf176c9f3c33a7bf284c3b43adb21cd29263ea0b16842e4a3903ad6583990d2e2e0a6fdf275fb3bb0a717619e6f68fe1b3
   languageName: node
   linkType: hard
 

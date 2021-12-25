@@ -12,11 +12,11 @@ const firebaseConfig = {
   measurementId: "G-NRD6ZPW3FK",
 };
 
-export const createUserProfileDocument = async (userAuth, addtionalData) => {
+export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
   const userRef = doc(firestore, `users/${userAuth.uid}`);
   const snapShot = await getDoc(userRef);
-  if (!snapShot.exist) {
+  if (!snapShot.exists) {
     const { displayName, email } = userAuth;
     const createdAt = new Date();
 
@@ -25,7 +25,7 @@ export const createUserProfileDocument = async (userAuth, addtionalData) => {
         displayName,
         email,
         createdAt,
-        ...addtionalData,
+        ...additionalData,
       });
     } catch (error) {
       console.log("error creating user", error.message);
